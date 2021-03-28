@@ -1,0 +1,35 @@
+/*Base*/
+html {
+    background-color: #1F1F26
+}
+
+/*Navbar*/
+.navbar-brand{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36PX;
+    line-height: 58px;
+    letter-spacing: -0.045em;
+}
+
+.searchBar {
+    background: #1F1F26;
+    box-shadow: inset 0px -4px 4px #3C3C48, inset 0px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 56px;
+    font-family: Proxima Nova;
+    border-style: none;
+}
+
+.navbar {
+    background: #1F1F26;
+    box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.5);
+}
+
+white {
+    color: white;
+}
+
+red {
+    color: #DA263C;
+}
