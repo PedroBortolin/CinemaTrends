@@ -1,0 +1,25 @@
+Histórias de usuários
+
+As a User
+I want to add to like films i enjoyed
+So other users may see it too
+
+As a User 
+I want to sing in CinemaTrends
+So i can discover new movies or like the ones i already watched
+
+As a User
+I want to know wich films are most watched
+So i can watch them too
+
+As a User
+I want to know the best rated series
+So i can give it my note
+
+As the owner
+I want to register movies on my app
+So people can interact with it
+
+AS the owner
+I want to separate movies by genre
+So the user can acssess it quickly
