@@ -1,6 +1,9 @@
 /*Base*/
 html {
-    background-color: #1F1F26
+    background-color: #1F1F26;
+}
+body {
+    background-color: #1F1F26;
 }
 
 /*Navbar*/
@@ -8,7 +11,7 @@ html {
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 36PX;
+    font-size: 36px;
     line-height: 58px;
     letter-spacing: -0.045em;
 }
@@ -32,4 +35,80 @@ white {
 
 red {
     color: #DA263C;
+}
+
+/*Sidebar*/
+.sidebar{
+    background-color: #1A1A21;
+    color: white;
+    font-family: Proxima Nova;
+    padding: 30px;
+    height: 100%;
+    margin: -12px;
+}
+
+.sidebar h1 {
+    font-size: 25px;
+}
+.sidebar ul {
+    list-style: none;
+}
+
+/*Header*/
+.header-image{
+    height: 280px;
+    width: 100%;
+    object-fit: none;
+    margin-bottom: 20px;
+}
+
+/*Card*/
+.card {
+    width: 240px;
+    height: 360px;
+    background-color: #1F1F26;
+    border-radius: 25px;
+}
+
+.infos{
+    position: absolute;
+}
+
+.top-icons{
+    padding: 20px 20px 0 20px;
+}
+
+
+.text-card {
+    font-family: Proxima Nova;
+    color: white;
+    margin-top: 120px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.title {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: -0.045em;
+}
+
+.desc {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+}
+
+.card img {
+    height: 360px;
+    object-fit: contain;
+    border-radius: 25px;
 }
