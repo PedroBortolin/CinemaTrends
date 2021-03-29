@@ -21,10 +21,28 @@
                 <white>CINEMA</white>
                 <red>TRENDS</red>
             </a>
+
             <form class="d-flex">
-                <input class="form-control me-2 searchBar" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary" type="submit">Search</button>
+                <input class="form-control me-2 searchBar" type="search" placeholder="Procurando por algum filme ou série?" aria-label="Search">
+                
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </a>
+                
+                <!--<button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>-->
             </form>
+
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </a>
+
         </div>
     </nav>
 
@@ -53,12 +71,93 @@
 
         <div class="col-sm-10">
             <div class="row">
-                <div class="header-image">
-                    <img class="header-image" src="filmes/Avengers - End Game.jpg" alt="">
+                <div class="col-sm-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner header-image">
+                            <div class="carousel-item">
+                                <div class="infos carousel-text">
+                                    <h1>Star Wars - Rogue One</h1>
+                                    <p>Em busca de uma nova esperança para a galáxia, a Aliança Rebelde enfrenta uma
+                                        arriscada missão: roubar os planos que revelam uma falha na construção da
+                                        Estrela da Morte. Para isso, eles contam com a ajuda de Jyn Erso, filha do
+                                        criador da arma mais poderosa do império.</p>
+                                </div>
+                                <img src="filmes/Star Wars - Rogue One.jpg" alt="0">
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="infos carousel-text">
+                                    <h1>Jumanji</h1>
+                                    <p>Tentado em revisitar o mundo de Jumanji, Spencer decide consertar o jogo de
+                                        videogame que permite que os jogadores sejam transportados ao local. Logo o
+                                        quarteto formado por Smolder Bravestone, Moose Finbar, Shelly Oberon e Ruby
+                                        Roundhouse ressurge, agora comandado por outras pessoas: os avôs de Spencer e
+                                        Fridge assumem as personas de Bravestone e Finbar, enquanto o próprio Fridge
+                                        agora está sob a pele de Oberon.</p>
+                                </div>
+
+                                <img src="filmes/Jumanji - The Next Level.jpg" alt="1">
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="infos carousel-text">
+                                    <h1>Avengers - End Game</h1>
+                                    <p>Após os eventos devastadores de "Vingadores: Guerra Infinita", o universo está em
+                                        ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados
+                                        remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as
+                                        ações de Thanos e restaurar a ordem no universo de uma vez por todas, não
+                                        importando as consequências.</p>
+                                </div>
+
+                                <img src="filmes/Avengers - End Game.jpg" alt="2">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
 
+
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1>Escolha da Galera</h1>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle btn-drop" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Por Nota
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Por Likes</a></li>
+                                <li><a class="dropdown-item" href="#">Por Nota</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">

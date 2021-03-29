@@ -5,6 +5,14 @@ html {
 body {
     background-color: #1F1F26;
 }
+h1{
+    font-family: Proxima Nova;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+}
 
 /*Navbar*/
 .navbar-brand{
@@ -17,6 +25,7 @@ body {
 }
 
 .searchBar {
+    width: 500px;
     background: #1F1F26;
     box-shadow: inset 0px -4px 4px #3C3C48, inset 0px 4px 4px rgba(0, 0, 0, 0.6);
     border-radius: 56px;
@@ -28,6 +37,7 @@ body {
     background: #1F1F26;
     box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.5);
 }
+
 
 white {
     color: white;
@@ -62,12 +72,41 @@ red {
     margin-bottom: 20px;
 }
 
+.carousel-text {
+    font-family: Proxima Nova;
+    color: white;
+    text-shadow: 0px 4px 5px #000000;
+    width: 60%;
+    padding: 20px 0 0 12% ; 
+}
+.carousel-text p {
+    font-size: 14px;
+}
+
+/*Button Dropdown*/
+.btn-drop {
+    width: 150px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* text */
+
+    background: #1F1F26;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), 0px -2px 2px #3A3A46, inset 0px -2px 2px rgba(0, 0, 0, 0.25), inset 0px 2px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    border-style: none;
+    /* Style */
+}
+
 /*Card*/
 .card {
     width: 240px;
     height: 360px;
     background-color: #1F1F26;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .infos{
@@ -75,14 +114,14 @@ red {
 }
 
 .top-icons{
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
 }
 
 
 .text-card {
     font-family: Proxima Nova;
     color: white;
-    margin-top: 120px;
+    margin-top: 100px;
     padding: 20px;
     font-size: 20px;
 }
@@ -110,5 +149,5 @@ red {
 .card img {
     height: 360px;
     object-fit: contain;
-    border-radius: 25px;
+    border-radius: 20px;
 }
